@@ -6,7 +6,14 @@ body {
     overflow: hidden;
 }
 
-canvas {
-    /* *la otra opción es con la sgte */
-    /* position: fixed; */
-}
+/* *la otra opción es la sgte */
+/* canvas {
+    position: fixed;
+} */
+
+/* *agrego fuente matrix, 1ero nombre, luego direccion de fuente. */
+/* *Luego uso ese nombre en el js  */
+@font-face {
+    font-family: matrix-code-font;
+    src: url(matrix-font.ttf);
+  }
