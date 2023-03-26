@@ -12,8 +12,8 @@ body {
 } */
 
 /* *agrego fuente matrix, 1ero nombre, luego direccion de fuente. */
-/* *Luego uso ese nombre en el js  */
+/* *Luego uso ese nombre en el js */
 @font-face {
     font-family: matrix-code-font;
-    src: url(matrix-font.ttf);
+    src: url("./matrix-font.ttf");
   }
