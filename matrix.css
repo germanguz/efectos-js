@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    /* *esta es una opción para ocultar scroll */
+    overflow: hidden;
+}
+
+canvas {
+    /* *la otra opción es con la sgte */
+    /* position: fixed; */
+}
