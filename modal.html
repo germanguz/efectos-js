@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modales</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <main>
+
+        <h1 class="titulo">Modals con CSS + JS</h1>
+
+        <div class="botones">
+            <button class="boton" id="abrir-modal-centro">Abrir modal en el centro</button>
+            <button class="boton" id="abrir-modal-derecha">Abrir modal a la derecha</button>
+            <button class="boton" id="abrir-modal-flotante">Abrir modals flotante</button>
+        </div>
+
+        <div class="modal-centro" id="modal-centro">
+            <h2>Esto es un modal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque error facere. Quidem animi pariatur molestias omnis atque reiciendis sapiente expedita laudantium. Iusto repellat ipsum ad accusantium quibusdam unde rerum.</p>
+            <button class="boton cerrar" id="cerrar-modal-centro">Cerrar</button>
+        </div>
+        
+        <div class="modal-derecha" id="modal-derecha">
+            <h2>Esto es un modal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque error facere. Quidem animi pariatur molestias omnis atque reiciendis sapiente expedita laudantium. Iusto repellat ipsum ad accusantium quibusdam unde rerum.</p>
+            <button class="boton cerrar" id="cerrar-modal-derecha">Cerrar</button>
+        </div>
+
+        <div class="modal-flotante-container" id="modal-flotante-container">
+            <div class="modal-flotante" id="modal-flotante">
+                <h2>Esto es un modal flotante</h2>
+                <p>"Este es un modal que cierra al hacer click fuera". Este es un modal que cierra al hacer click fuera. Este es un modal que cierra al hacer click fuera. </p>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="./modal.js"></script>
+</body>
+</html>
+<!-- Armá tus propios MODALS con CSS y JS 🤩 -->
+<!-- https://www.youtube.com/watch?v=gknrFzQrLZc (carpicoder) -->
+<!-- https://codepen.io/carpicoder/pen/KKeebZa (este para el que no usa boton de cerrar, también de carpicoder) -->
