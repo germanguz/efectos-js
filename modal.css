@@ -111,7 +111,6 @@ main {
     transition: 0.3s;
     /* *se puede usar en caso de no usar transition porque sino queda feo el efecto */
     /* background-color: rgba(0, 0, 0, .5); */
-
 }
 
 .modal-flotante {
